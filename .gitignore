@@ -1,0 +1,3 @@
+# ignore all images
+*.DS_Store
+*.idea/

@@ -1,0 +1,6 @@
+# ignore all images
+*custom_tiles
+*custom_main_pic
+*.DS_Store
+*.idea/
+*.jpeg
