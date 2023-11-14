@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 
 from os import listdir
 mypath = './tiles/'
-onlyfiles = [f for f in listdir(mypath)]
+onlyfiles = [f for f in listdir(mypath) if not f.startswith('.')]
 
 for j in onlyfiles:
 	out_file = './tiles_bw/bw' + str(j)
